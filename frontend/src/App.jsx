@@ -4,6 +4,7 @@ import {
   ExamDashboard,
   ExamInterface,
   TextbookPage,
+  HomeworkPage,
   loadAllQuestions,
   compiledContentService
 } from '@srfoster/textbook-lib';
@@ -40,6 +41,7 @@ function AppContent() {
 
   const isExamPage = location.pathname.startsWith('/exams');
   const isTextbookPage = !isExamPage;
+  const isHomeworkPage = !isHomeworkPage;
 
   if (loading) {
     return (
@@ -69,6 +71,10 @@ function AppContent() {
               className={`nav-link ${isExamPage ? 'active' : ''}`}
             >
               Exams
+            </Link>
+            <Link to="/homework"
+            className={`nav-link ${isHomeworkPage ? 'active':''}`}>
+              Homework
             </Link>
           </nav>
         </div>
