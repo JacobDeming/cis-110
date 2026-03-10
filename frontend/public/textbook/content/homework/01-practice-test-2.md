@@ -1,14 +1,14 @@
 # Practice Test #2
 
-Example video of me taking a practice exam
-{{YouTube:&https://www.youtube.com/watch?v=ZbLEEMobORA}}
+Video instructions
+{{YouTube:https://www.youtube.com/watch?v=NfERiz6nIM8}}
 
 ## Deliverable
 
 You must submit a link to a YouTube video. To get full credit, ALL of the following must be true:
 
 * Your video is unlisted (not private)
-* Your practice exam is generated with the slider at 10% (or more).
+* Your practice exam is generated with the slider at 30% (or more).
   * NOTE: The video must begin BEFORE the exam is generated. I need to see you press the button to generate the exam.
 * You use your camera to demonstrate that you are alone in a room and not using any notes, books, or other resources.
 * There are zero edits to the video (no jump cuts, etc.)
@@ -18,7 +18,6 @@ You must submit a link to a YouTube video. To get full credit, ALL of the follow
 * You make an effort to answer all of the questions out loud, even in cases where you don't know the answer.
 * Your answers are accompanied by diagrams that illustrate what you are explaining.
   * NOTE: At minimum, even if you do not know the answer, you should at least attempt to say which part of the "Table of contents" diagram the question pertains to. On the midterm and final exams, this virtually guarantees at least partial credit.
-* You drew the "Table of Contents" diagram from memory at the beginning of the video.
 * You made a best effort to answer all of the questions out loud, even if you didn't know the answer.
   * NOTE: It's okay to say "I don't know" if you don't know the answer, but at minimum you should at least take a guess as to which part of the diagram the question relates to.
 
