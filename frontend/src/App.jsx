@@ -4,7 +4,6 @@ import {
   ExamDashboard,
   ExamInterface,
   TextbookPage,
-  HomeworkPage,
   loadAllQuestions,
   compiledContentService
 } from '@srfoster/textbook-lib';
@@ -40,7 +39,7 @@ function AppContent() {
   };
 
   const isExamPage = location.pathname.startsWith('/exams');
-  const isHomeworkPage = location.pathname.startsWith('/homework');
+  const isHomeworkPage = location.pathname.includes('/homework');
   const isTextbookPage = !isExamPage && !isHomeworkPage;
   
 
@@ -84,7 +83,7 @@ function AppContent() {
       <main>
         <Routes>
           <Route path="/" element={<TextbookPage />} />
-          <Route path="/homework" element={<HomeworkPage />} />
+          <Route path="/homework" element={<Navigate to={'/textbook/content/homework'} />} />
           <Route path="/exams" element={
             currentExam ? (
               <ExamInterface 
